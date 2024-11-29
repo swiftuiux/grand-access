@@ -1,6 +1,6 @@
 # Grand access and Permission async/await
 
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Figor11191708%2Fgrand-access%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/igor11191708/grand-access)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswiftuiux%2Fgrand-access%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/swiftuiux/grand-access)
 
 ## Why ?! instead of a preface
 So, while working on some projects, I kept running into designs that needed the rights request functions to be in different visual components. Instead of copying and pasting the same code everywhere, I decided to streamline things by pulling that functionality into its own package.
@@ -8,10 +8,10 @@ So, while working on some projects, I kept running into designs that needed the 
 I’ve decided to separate certain permission-acquiring functionalities within my projects because each type of permission has its unique implementation requirements. I might even consider placing each of them in a separate package. I will think about this later based on practical experience.
 
 ### SwiftUI example
-The project demonstrating how to handle camera permissions in an iOS application [here](https://github.com/The-Igor/permission-swift-example)
+The project demonstrating how to handle camera permissions in an iOS application [here](https://github.com/swiftuiux/permission-swift-example)
 
 ### CoreLocation
-Explore the [**Async location**](https://github.com/The-Igor/d3-async-location) repository on GitHub. It provides practical examples on how to set up and manage permissions for location services in iOS applications.
+Explore the [**Async location**](https://github.com/swiftuiux/d3-async-location) repository on GitHub. It provides practical examples on how to set up and manage permissions for location services in iOS applications.
 
 ## Overview
 
@@ -35,7 +35,7 @@ This package contains two main components: `GrandAccessModifier` and `Permission
 - [x] Robust Error Handling: Includes basic error handling and logging for permission requests.
 
 
- ![simulate locations](https://github.com/The-Igor/grand-access/blob/main/img/grand_access.gif)
+ ![simulate locations](https://github.com/swiftuiux/grand-access/blob/main/img/grand_access.gif)
 
 ## Usage
 
